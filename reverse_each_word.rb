@@ -3,7 +3,7 @@ def reverse_each_word(sentence)
   sentarray.push(sentence.split(' '))
   puts sentarray
   sentarray.each do |sentarray|
-    sentarray.reverse
+    puts sentarray.reverse
   end   
   puts sentarray
 end   
