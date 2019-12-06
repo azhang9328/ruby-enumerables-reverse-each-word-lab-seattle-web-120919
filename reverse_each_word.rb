@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
   sentarray.each do |sentarray|
     reversesent.push(sentarray.reverse)
   end   
-  puts reversesent
+  reversesent.flatten
   reversesent.join(' ')
 end   
 
