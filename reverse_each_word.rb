@@ -5,5 +5,6 @@ def reverse_each_word(sentence)
     reversesent.push(sentarray.reverse)
   end   
   puts reversesent
+  
 end   
 
