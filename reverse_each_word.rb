@@ -1,5 +1,5 @@
 def reverse_each_word(sentence)
   sentarray = []
-puts sentence.split(' ')
-
+sentarray.push(sentence.split(' '))
+puts sentarray
 end   
