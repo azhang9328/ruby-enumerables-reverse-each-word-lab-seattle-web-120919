@@ -2,9 +2,9 @@ def reverse_each_word(sentence)
   sentarray = sentence.split(' ')
   reversesent = []
   sentarray.each do |sentarray|
-    reversesent.push(sentarray.reverse)
+    sentarray.reverse
   end   
-  puts reversesent
+  puts sentarray
   
 end   
 
