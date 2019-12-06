@@ -6,5 +6,6 @@ def reverse_each_word(sentence)
   end   
   reversesent.flatten
   reversesent.join(' ')
+  puts reversesent
 end   
 
