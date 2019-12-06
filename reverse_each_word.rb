@@ -3,5 +3,5 @@ def reverse_each_word(sentence)
   sentarray.push(sentence.split(' '))
   puts sentarray
   sentarray.reverse!
-  
+  puts sentarray
 end   
