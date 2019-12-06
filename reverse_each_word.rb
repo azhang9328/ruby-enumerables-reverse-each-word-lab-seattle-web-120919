@@ -5,6 +5,6 @@ def reverse_each_word(sentence)
     reversesent.push(sentarray.reverse)
   end   
   puts reversesent
-  reversesent.join(' ').flatten
+  reversesent.join(' ')
 end   
 
